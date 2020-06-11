@@ -1,0 +1,17 @@
+
+.dialog{
+  padding: 10px;
+
+}
+.dialog a{
+  text-decoration: none;
+  color: black;
+}
+.dialog a.active{
+  color: black;
+  font-weight: 700;
+}
+.dialog img{
+  width: 15px;
+  border-radius: 10px;
+}

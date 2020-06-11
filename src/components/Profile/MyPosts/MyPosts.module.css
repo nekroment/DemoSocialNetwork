@@ -1,0 +1,13 @@
+  /* .newPost{
+    color:rgba(8, 2, 49, 0.527);
+    font-weight: 400;
+    width: 60%;
+    height: 50px;
+    border: 8px solid aquamarine;
+    background-color: #fff;
+  } */
+  .myPosts{
+    padding:10px;
+    color:rgb(8, 2, 49);
+    font-weight: 600;
+  }

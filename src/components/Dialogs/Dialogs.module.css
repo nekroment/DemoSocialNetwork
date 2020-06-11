@@ -1,0 +1,14 @@
+.dialogs{
+  display: grid;
+  grid-template-columns: 4fr 8fr 8fr;
+}
+.dialogs_items{
+  padding:10px
+
+}
+.messages{
+  padding: 10px;
+}
+.me{
+  text-align: right;
+}

@@ -1,0 +1,13 @@
+.photo{
+    width: 40px;
+    height: 40px;
+}
+.selectPage{
+    font-weight: bold;
+}
+.count > span{
+    padding:2px;
+}
+.loader{
+    width: 35px;
+}

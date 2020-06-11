@@ -1,0 +1,27 @@
+.nav{
+    grid-area: n;
+    background-color: aqua;
+  }
+
+  .item{
+      color:rgb(8, 2, 49);
+      font-weight: 700;
+      text-align: center;
+  }  
+  .item.friends{
+    font-weight: 500;
+    padding: 2px;
+  }
+  .item.friends img{
+    width: 15px;
+    border-radius: 10px;
+  }
+  .item a{
+    color:rgb(8, 2, 49);
+    text-decoration: none;
+  }
+  .item a.active{
+      color: rgb(1, 0, 8);
+      font-weight: 800;
+      text-decoration: none;
+  }

@@ -1,0 +1,10 @@
+.item{
+  color:rgb(8, 2, 49);
+  font-weight: 400;
+  padding:10px;
+} 
+.item img{
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+}

@@ -1,0 +1,30 @@
+.grid{
+  display:grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 60px 60px;
+  grid-gap: 10px;
+  grid-template-areas: 'Logo Logo'
+  'Photo Desc' ;
+
+}
+  .ProfileLogo img{
+    width: 100%;
+    height: 60px;
+  }
+  .ProfileLogo{
+    grid-area: Logo;
+  }
+  .ProfilePhoto img{
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .ProfilePhoto{
+    grid-area: Photo;
+  }
+  .decription{
+    grid-area:Desc;
+  }
+  .about_me{
+    padding: 10px;
+  }
