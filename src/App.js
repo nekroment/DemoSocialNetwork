@@ -48,7 +48,7 @@ let mapStateToProps=(state)=>({
 let AppContainer = compose(connect(mapStateToProps, { initializeApp: initializeThunkCreator }), withRouter)(App);
 
 let RealApp = (props) => {
-  return <BrowserRouter>
+  return <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Provider store={store}>
       <AppContainer />
     </Provider>
