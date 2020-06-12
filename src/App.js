@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.css';
-import { Route, withRouter, BrowserRouter } from 'react-router-dom';
+import { Route, withRouter, HashRouter } from 'react-router-dom';
 import NavbarContainer from './components/NavBar/NavContainer';
 import UsersContainer from './components/Users/UsersContainer';
 import ProfileContainer from './components/Profile/ProfileContainer';
@@ -48,11 +48,11 @@ let mapStateToProps=(state)=>({
 let AppContainer = compose(connect(mapStateToProps, { initializeApp: initializeThunkCreator }), withRouter)(App);
 
 let RealApp = (props) => {
-  return <BrowserRouter basename={process.env.PUBLIC_URL}>
+  return <HashRouter basename={process.env.PUBLIC_URL}>
     <Provider store={store}>
       <AppContainer />
     </Provider>
-  </BrowserRouter>
+  </HashRouter>
 }
 
 export default RealApp;
