@@ -21,6 +21,7 @@ export const initializedSuccess = () => ({ type: INITIALIZED_SUCCESS});
 
 export const initializeThunkCreator = () => {
     return (dispatch) => {
+        debugger
         dispatch(authMeThunkCreator())
         .then(()=>
         dispatch(initializedSuccess()));
